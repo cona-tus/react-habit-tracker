@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class Form extends Component {
+class Form extends PureComponent {
   formRef = React.createRef();
   inputRef = React.createRef();
 
